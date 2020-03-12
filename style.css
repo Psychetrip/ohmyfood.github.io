@@ -48,24 +48,28 @@ header{
 .imgnote{
 	height: 500px;
 	width: auto;
+	opacity: 0.8;
 	transform: scale(0.80);
 	transition: transform 300ms;
 }
 
 .imgnote:hover{
 	transform: scale(1);
+	opacity: 1;
 }
 
 
 .imgchic{
 	height: 500px;
 	width: auto;
+	opacity: 0.8;
 	transform: scale(0.80);
 	transition: transform 300ms;
 }
 
 .imgchic:hover{
 	transform: scale(1);
+	opacity: 1;
 }
 
 
@@ -94,23 +98,27 @@ header{
 .imgdelice{
 	height: 500px;
 	width: auto;
+	opacity: 0.8;
 	transform: scale(0.80);
 	transition: transform 300ms;
 }
 
 .imgdelice:hover{
 	transform: scale(1);
+	opacity: 1;
 }
 
 .imgpalette{
 	height: 500px;
 	width: auto;
+	opacity: 0.8;
 	transform: scale(0.80);
 	transition: transform 300ms;
 }
 
 .imgpalette:hover{
 	transform: scale(1);
+	opacity: 1;
 }
 
 
