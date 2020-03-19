@@ -48,7 +48,7 @@ header{
 .imgnote{
 	height: 500px;
 	width: auto;
-	opacity: 0.8;
+	opacity: 0.75;
 	transform: scale(0.80);
 	transition: transform 300ms;
 }
@@ -62,7 +62,7 @@ header{
 .imgchic{
 	height: 500px;
 	width: auto;
-	opacity: 0.8;
+	opacity: 0.75;
 	transform: scale(0.80);
 	transition: transform 300ms;
 }
@@ -98,7 +98,7 @@ header{
 .imgdelice{
 	height: 500px;
 	width: auto;
-	opacity: 0.8;
+	opacity: 0.75;
 	transform: scale(0.80);
 	transition: transform 300ms;
 }
@@ -111,7 +111,7 @@ header{
 .imgpalette{
 	height: 500px;
 	width: auto;
-	opacity: 0.8;
+	opacity: 0.75;
 	transform: scale(0.80);
 	transition: transform 300ms;
 }
@@ -135,7 +135,7 @@ header{
 	background-color: rgba(86,156,135 ,1);
 	width: 35%;
 	border-radius: 15px;
-	max-width: 400px;
+	max-width: 450px;
 }
 
 #soon h2{
@@ -144,6 +144,11 @@ header{
 	padding: 15px;
 	margin: 0px;
 	font-size: 2em;
+}
+
+.ball1, .ball2, .ball3{
+	font-size: 2.8em;
+	line-height: 18px;
 }
 
 /* FOOTER */
