@@ -1,4 +1,8 @@
 
+body{
+	margin: 0;
+}
+
 #wrapper{
 	width: 100%;
 	margin: auto;
@@ -149,6 +153,31 @@ header{
 .ball1, .ball2, .ball3{
 	font-size: 2.8em;
 	line-height: 18px;
+	animation: point 1200ms infinite;
+}
+
+.ball1{
+	animation-delay: 200ms;
+}
+
+.ball2{
+	animation-delay: 400ms;
+}
+
+.ball3{
+	animation-delay: 600ms;
+}
+
+@keyframes point{
+	0%{
+		opacity: 0.1;
+	}
+	20%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0.1;
+	}
 }
 
 /* FOOTER */
@@ -168,4 +197,17 @@ footer h3{
 
 footer a{
 	text-decoration: none;
+}
+
+footer a:hover{
+	animation: headshake 100ms 2;
+}
+
+@keyframes headshake{
+	25%{
+		transform: translateX(2%);
+	}
+	75%{
+		transform: translateX(-2%);
+	}
 }
